@@ -1,0 +1,57 @@
+.centro {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+h1.centro {
+    color: #ffffff;
+}
+p.centro {
+    color: #b97f02;
+    font-size: 16px;
+}
+
+a.centro {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.centro:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #03477e;
+    padding: 20px;
+}
+
+div.caixa-branca {
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(173, 119, 2, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+div.lista {
+    background-color: #bebebe;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(173, 119, 2, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.lista ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #015c09;
+    list-style: none;
+    font-weight: bold;
+}
