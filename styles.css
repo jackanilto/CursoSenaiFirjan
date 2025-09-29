@@ -55,3 +55,26 @@ div.lista ul {
     list-style: none;
     font-weight: bold;
 }
+
+div.menu {
+    background-color: #e9ac03;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(173, 119, 2, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+div.menu a:hover {
+    text-decoration: underline;
+}
